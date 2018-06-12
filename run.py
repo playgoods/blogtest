@@ -1,1 +1,2 @@
-from blogtest import 
+from blogtest import app
+

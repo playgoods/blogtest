@@ -1,6 +1,7 @@
 from flask import  render_template, url_for, flash, redirect
 from blogtest.forms import RegistrationForm, Login
 from blogtest import app
+#from blogtest.models import User,Post
 
 posts = [
         { 
@@ -22,10 +23,6 @@ posts = [
 def home():
     return render_template("home.html",posts=posts)
 
-@app.route('/home')
-@app.route('/')
-def home():
-    return render_template("home.html",posts=posts)
 
 @app.route('/about')
 def about():
