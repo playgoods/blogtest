@@ -1,5 +1,5 @@
 venv
 __pycache__
 mail_its.txt
-profile_pics/*
+blogtest/static/profile_pics/*
 
